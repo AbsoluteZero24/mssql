@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: php
-        image: your-dockerhub-repo/php-app
+        image: absolutezero24/mssql-php:latest
         ports:
         - containerPort: 80
 ---
